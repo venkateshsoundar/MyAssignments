@@ -27,6 +27,7 @@ public class Majorityelement {
 
 			if (count > numberbytwo) {
 				System.out.println("Majorityelement: " + nums[i]);
+				break;
 			}
 
 		}
