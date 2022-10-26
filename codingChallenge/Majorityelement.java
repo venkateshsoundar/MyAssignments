@@ -7,7 +7,7 @@ public class Majorityelement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
+		int[] nums = { 2, 2, 1, 1, 1, 2, 7, 7, 7, 7, 7, 7, 7, 7 ,7, 7};
 		Arrays.sort(nums);
 		int numberbytwo = nums.length / 2;
 
@@ -19,8 +19,6 @@ public class Majorityelement {
 
 				if (nums[i] == nums[j]) {
 					count = count + 1;
-				} else {
-					break;
 				}
 
 			}
