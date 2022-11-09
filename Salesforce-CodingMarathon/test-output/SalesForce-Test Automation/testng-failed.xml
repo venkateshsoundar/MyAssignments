@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesForce-Test Automation]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Testleaf$321"/>
+  <parameter name="url" value="https://login.salesforce.com"/>
+  <parameter name="datasheet" value="./Testdata/Testcasedata.xlsx"/>
+  <parameter name="username" value="hari.radhakrishnan@qeagle.com"/>
+  <test thread-count="5" name="CreateQuest-Chrome(failed)">
+    <parameter name="testcasesheet" value="CreateQuestion"/>
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="salesforce.CreateQuestions">
+        <methods>
+          <include name="createquest"/>
+          <include name="launchBrowser"/>
+          <include name="Closebrowser"/>
+        </methods>
+      </class> <!-- salesforce.CreateQuestions -->
+    </classes>
+  </test> <!-- CreateQuest-Chrome(failed) -->
+</suite> <!-- Failed suite [SalesForce-Test Automation] -->

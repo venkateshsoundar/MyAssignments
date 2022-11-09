@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T20:30:49 IST" name="SalesForce" finished-at="2022-11-09T20:31:57 IST" duration-ms="67480">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T20:30:49 IST" name="CreateQuest-Chrome" finished-at="2022-11-09T20:31:53 IST" duration-ms="63718">
+      <class name="salesforce.CreateQuestions">
+        <test-method is-config="true" signature="setdata()[pri:0, instance:salesforce.CreateQuestions@6ed3ccb2]" started-at="2022-11-09T20:30:49 IST" name="setdata" finished-at="2022-11-09T20:30:49 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdata -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateQuestions@6ed3ccb2]" started-at="2022-11-09T20:30:50 IST" name="launchBrowser" finished-at="2022-11-09T20:30:57 IST" duration-ms="6957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createquest(java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateQuestions@6ed3ccb2]" started-at="2022-11-09T20:30:57 IST" name="createquest" data-provider="provideData" finished-at="2022-11-09T20:31:15 IST" duration-ms="17732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[what is meant by selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Learn more about selenium automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createquest -->
+        <test-method is-config="true" signature="Closebrowser()[pri:0, instance:salesforce.CreateQuestions@6ed3ccb2]" started-at="2022-11-09T20:31:15 IST" name="Closebrowser" finished-at="2022-11-09T20:31:31 IST" duration-ms="16219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateQuestions@6ed3ccb2]" started-at="2022-11-09T20:31:31 IST" name="launchBrowser" finished-at="2022-11-09T20:31:36 IST" duration-ms="5438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createquest(java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateQuestions@6ed3ccb2]" started-at="2022-11-09T20:31:36 IST" name="createquest" data-provider="provideData" finished-at="2022-11-09T20:31:53 IST" duration-ms="16408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[what is meant by JAVA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Learn more about coding]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createquest -->
+        <test-method is-config="true" signature="Closebrowser()[pri:0, instance:salesforce.CreateQuestions@6ed3ccb2]" started-at="2022-11-09T20:31:53 IST" name="Closebrowser" finished-at="2022-11-09T20:31:53 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- salesforce.CreateQuestions -->
+    </test> <!-- CreateQuest-Chrome -->
+    <test started-at="2022-11-09T20:30:49 IST" name="CreateOpportunities-Edge" finished-at="2022-11-09T20:31:57 IST" duration-ms="67480">
+      <class name="salesforce.CreateOpportunities">
+        <test-method is-config="true" signature="setdata()[pri:0, instance:salesforce.CreateOpportunities@4009e306]" started-at="2022-11-09T20:30:49 IST" name="setdata" finished-at="2022-11-09T20:30:49 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdata -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateOpportunities@4009e306]" started-at="2022-11-09T20:30:50 IST" name="launchBrowser" finished-at="2022-11-09T20:30:55 IST" duration-ms="5131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createopportunity(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateOpportunities@4009e306]" started-at="2022-11-09T20:30:55 IST" name="createopportunity" data-provider="provideData" finished-at="2022-11-09T20:31:19 IST" duration-ms="23866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venkatesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Customer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Partner Referral]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Needs Analysis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createopportunity -->
+        <test-method is-config="true" signature="Closebrowser()[pri:0, instance:salesforce.CreateOpportunities@4009e306]" started-at="2022-11-09T20:31:19 IST" name="Closebrowser" finished-at="2022-11-09T20:31:19 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateOpportunities@4009e306]" started-at="2022-11-09T20:31:19 IST" name="launchBrowser" finished-at="2022-11-09T20:31:31 IST" duration-ms="11894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createopportunity(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.CreateOpportunities@4009e306]" started-at="2022-11-09T20:31:31 IST" name="createopportunity" data-provider="provideData" finished-at="2022-11-09T20:31:57 IST" duration-ms="25454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Monisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Customer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Partner Referral]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Needs Analysis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createopportunity -->
+        <test-method is-config="true" signature="Closebrowser()[pri:0, instance:salesforce.CreateOpportunities@4009e306]" started-at="2022-11-09T20:31:57 IST" name="Closebrowser" finished-at="2022-11-09T20:31:57 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- salesforce.CreateOpportunities -->
+    </test> <!-- CreateOpportunities-Edge -->
+  </suite> <!-- SalesForce -->
+</testng-results>
